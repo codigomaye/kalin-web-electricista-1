@@ -51,4 +51,5 @@ return [
     'isActive' => function ($page, $path) {
         return Str::endsWith(trimPath($page->getPath()), trimPath($path));
     },
+    'whatsApp' => '+34695330895',
 ];
